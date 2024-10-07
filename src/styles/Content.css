@@ -1,0 +1,7 @@
+
+.content {
+    padding-top: 60px;  /* Ajuste la valeur selon la hauteur de ton header */
+    padding-left: 27%; 
+    padding-right: 10%;  /* Ajuste selon la largeur de ta sidebar */
+    box-sizing: border-box; /* Assure que le padding ne dépasse pas la largeur totale */
+  }

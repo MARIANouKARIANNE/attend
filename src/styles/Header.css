@@ -1,0 +1,33 @@
+
+.sidebar {
+    width: 20%; /* Largeur de la sidebar */
+    background-color: #f8f8f8; /* Couleur de fond */
+    padding: 20px; /* Espacement interne */
+    border-right: 1px solid #ddd; /* Bordure à droite */
+    position: fixed; /* Position fixe */
+    height: 100%; /* Hauteur à 100% */
+    top: 0; /* Positionne le haut à 0 */
+    left: 0; /* Positionne le côté gauche à 0 */
+    overflow-y: auto; /* Ajoute un défilement vertical si nécessaire */
+  }
+  
+  .sidebar nav ul {
+    list-style-type: none; /* Supprime les puces */
+    padding: 0; /* Enlève le padding par défaut */
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 20px; /* Espace entre les éléments de la liste */
+  }
+  
+  .sidebar nav ul li a {
+    text-decoration: none; /* Supprime le soulignement */
+    font-family:  "Spicy Rice", serif;/* Police */
+    font-size: 26px; /* Taille de la police */
+    color: #333; /* Couleur du texte */
+  }
+  
+  .sidebar nav ul li a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+  }
+  
